@@ -7,7 +7,7 @@
 import os
 import cv2
 import numpy as np
-from view_database import read_rect
+from utils.view_database import read_rect
 
 def draw_ground_truth(path):
     blank_image = np.zeros((920, 1280, 3), np.uint8)

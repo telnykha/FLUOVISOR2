@@ -1,5 +1,5 @@
 import cv2
-from fluo_track_core import fluo_tracker
+from fluo.fluo_track_core import fluo_tracker
 
 
 class fluo_cv_track(fluo_tracker):

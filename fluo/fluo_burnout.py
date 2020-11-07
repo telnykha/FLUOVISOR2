@@ -10,10 +10,10 @@ Burnout_400t Burnout_660t - значения выгорания по треке�
 import os
 import cv2
 import numpy as np
-from view_database import read_rect
-from fluo_create_tracker import create_tracker
-from convert_database import bytescaling
-from fluo_urils import calc_loss
+from utils.view_database import read_rect
+from fluo.fluo_create_tracker import create_tracker
+from utils.convert_database import bytescaling
+from fluo.fluo_urils import calc_loss
 
 TRACKER = "KCF"
 

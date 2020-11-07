@@ -1,7 +1,7 @@
 import cv2
 import os
 import xml.etree.ElementTree as ET
-from fluo_create_tracker import create_tracker
+from fluo.fluo_create_tracker import create_tracker
 
 def file_count(path):
     count = 0
@@ -85,5 +85,5 @@ def view_database(path):
 
 
 if __name__ == '__main__':
-    path = "H:\\database\\fluovisor\\tracks\\set1_660\\track00027\\"
+    path = "H:\\database\\fluovisor\\tracks\\set1\\track00001\\"
     view_database(path)

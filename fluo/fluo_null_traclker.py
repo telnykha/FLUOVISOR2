@@ -6,7 +6,7 @@
     author: Alex A.Telnykh
     date: october 2020
 """
-from fluo_track_core import fluo_tracker
+from fluo.fluo_track_core import fluo_tracker
 
 
 class fluo_null_track(fluo_tracker):

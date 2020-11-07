@@ -1,8 +1,8 @@
-from fluo_null_traclker import fluo_null_track
-from fluo_lk_tracker import fluo_lk_track
-from fluo_shift_tracker import fluo_sift_track
-from fluo_tm_tracker import fluo_tm_track
-from fluo_cv_tracker import fluo_cv_track
+from fluo.fluo_null_traclker import fluo_null_track
+from fluo.fluo_lk_tracker import fluo_lk_track
+from fluo.fluo_shift_tracker import fluo_sift_track
+from fluo.fluo_tm_tracker import fluo_tm_track
+from fluo.fluo_cv_tracker import fluo_cv_track
 
 def create_tracker(name, x, y, radius = 100):
     if name == 'NULL':

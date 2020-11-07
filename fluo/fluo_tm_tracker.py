@@ -7,7 +7,7 @@
     date: october 2020
 """
 import cv2
-from fluo_track_core import fluo_tracker
+from fluo.fluo_track_core import fluo_tracker
 
 class fluo_tm_track(fluo_tracker):
     def __init__(self, x, y, radius=100):

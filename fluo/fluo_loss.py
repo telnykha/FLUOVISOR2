@@ -2,11 +2,11 @@ import os
 import time
 import cv2
 import argparse
-from view_database import read_rect
-from draw_gt import draw_ground_truth
-from fluo_urils import calc_loss
-from fluo_create_tracker import create_tracker
-from convert_database import bytescaling
+from utils.view_database import read_rect
+from utils.draw_gt import draw_ground_truth
+from fluo.fluo_urils import calc_loss
+from fluo.fluo_create_tracker import create_tracker
+from utils.convert_database import bytescaling
 
 the_tracker = "null"
 area_radius = 100

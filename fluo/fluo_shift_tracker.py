@@ -8,7 +8,7 @@
 """
 
 import cv2
-from fluo_track_core import fluo_tracker
+from fluo.fluo_track_core import fluo_tracker
 import numpy as np
 import math
 
