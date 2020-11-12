@@ -46,7 +46,7 @@ def get_loss_tiff(dir_name, tracker_name):
                         if tracker is None:
                             raise Exception("cannot create tracker: " + tracker_name)
                         print("done")
-                    img = cv2.imread(f[0:f.find('_0.')] + '_400.tiff', -1)
+                    img = cv2.imread(f[0:f.find('_0.')] + '_660.tiff', -1)
                     image0 = bytescaling(img)
                     image = cv2.merge((image0, image0, image0))
                     t_start = time.time()

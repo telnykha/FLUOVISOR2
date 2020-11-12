@@ -58,7 +58,7 @@ def view_database(path):
             if tracker is None:
                 x = (rect[0][0] + rect[0][2]) / 2
                 y = (rect[0][1] + rect[0][3]) / 2
-                tracker = create_tracker("MEDIANFLOW", x, y, 100)
+                tracker = create_tracker("CSRT", x, y, 100)
                 r = (rect[0][2] - rect[0][0]) / 2
 
             #_x = (rect[0][0] + rect[0][2]) / 2
@@ -85,5 +85,5 @@ def view_database(path):
 
 
 if __name__ == '__main__':
-    path = "H:\\database\\fluovisor\\tracks\\set1\\track00001\\"
+    path = "H:\\database\\fluovisor\\tracks\\set1\\track00029\\"
     view_database(path)
