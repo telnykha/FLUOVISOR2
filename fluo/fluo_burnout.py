@@ -15,7 +15,7 @@ from fluo.fluo_create_tracker import create_tracker
 from utils.convert_database import bytescaling
 from fluo.fluo_urils import calc_loss
 
-TRACKER = "KCF"
+TRACKER = "MOSSE"
 
 def process_dir(path , file_out = None):
     count = 0
@@ -60,7 +60,7 @@ def process_dir(path , file_out = None):
 
                     res = False
                     if tracker == None:
-                        tracker = create_tracker(TRACKER, x, y, 100)
+                        tracker = create_tracker(TRACKER, x, y, 125)
 
                     img = bytescaling(img740)
                     image = cv2.merge((img, img, img))
@@ -99,5 +99,5 @@ def burnout(path):
 
 
 if __name__ == '__main__':
-    path = "H:\\database\\fluovisor\\test\\set1\\"
+    path = "H:\\database\\fluovisor\\test\\set2\\"
     burnout(path)

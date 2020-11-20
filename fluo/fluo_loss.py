@@ -194,6 +194,6 @@ if __name__ == '__main__':
     the_tracker = args.tracker
     area_radius = args.radius
 
-    path = 'H:\\database\\fluovisor\\test\\set1\\'
+    path = 'H:\\database\\fluovisor\\test\\set2\\'
     # H:\database\fluovisor\tracks\set2
     process_database(path)
